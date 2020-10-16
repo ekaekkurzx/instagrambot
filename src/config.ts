@@ -4,10 +4,10 @@ const config = {
     password: process.env.PASSWORD || '',
   },
   job: {
-    hashtags: ['like4like', 'follow4follow', 'followforfollow', 'likeforlike', 'lfl', 'fff'],
-    numberOfPosts: Number(process.env.NUMBER_OF_POSTS) || 20,
-    unfollow: Number(process.env.NUMBER_OF_UNFOLLOW) || 20,
-    commentProbability: 65,
+    hashtags: ['like4like', 'follow4follow', 'followforfollow', 'likeforlike', 'lfl', 'fff', 'followtofollback', 'viral', 'hype', 'follback', 'followme', 'likeback', 'spamlike'],
+    numberOfPosts: Number(process.env.NUMBER_OF_POSTS) || 10,
+    unfollow: Number(process.env.NUMBER_OF_UNFOLLOW) || 10,
+    commentProbability: 50,
   },
   wit: {
     accessToken: process.env.WIT_TOKEN || '',
@@ -30,8 +30,15 @@ const config = {
       'Pretty',
       'Mellifluous',
       'Great Stuff!',
+      'followback',
+      'likeback',
+      'lfl u first',
+      'fff u turn',
+      'Nice Pict!',
+      'Cantik',
+      'Keren',
     ],
-    sad: ['damn', 'im gonna cry', 'nooo', 'why', 'omg', 'oh God', ':(', 'im so sorry'],
+    sad: ['damn', 'im gonna cry', 'nooo', 'why', 'omg', 'oh God', ':(', 'im so sorry', 'i apologize', 'sad', 'dont give up', 'jangan patah semangat', 'kamu pasti bisa'],
   },
 };
 
